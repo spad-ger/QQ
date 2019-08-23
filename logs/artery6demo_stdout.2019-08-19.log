@@ -1,0 +1,212 @@
+2019-08-19 10:16:01 [INFO ] [restartedMain] c.t.d.d.Artery6demoApplication - Starting Artery6demoApplication on GUOZHICHAO with PID 13704 (H:\workspace\artery6demo\target\classes started by Administrator in H:\workspace\artery6demo)
+2019-08-19 10:16:01 [INFO ] [restartedMain] c.t.d.d.Artery6demoApplication - The following profiles are active: dev
+2019-08-19 10:16:01 [INFO ] [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-08-19 10:16:01 [INFO ] [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-08-19 10:16:03 [INFO ] [restartedMain] c.t.a.s.p.e.p.ArteryEncryptPropertiesPostProcessor - 开始处理PropertySource
+2019-08-19 10:16:03 [INFO ] [restartedMain] c.t.tas.util.log - Logging initialized @3298ms to com.thunisoft.tas.util.log.Slf4jLog
+2019-08-19 10:16:04 [INFO ] [restartedMain] o.s.b.w.e.j.TasServletWebServerFactory - Server initialized with port: 8080
+2019-08-19 10:16:04 [WARN ] [restartedMain] c.t.t.s.AbstractConnector - Ignoring deprecated socket close linger time
+2019-08-19 10:16:04 [INFO ] [restartedMain] c.t.t.c.TasWebServerFactoryCustomizer - 【友情提示】如果发现1099端口冲突，可以设置tas.jmx.enable=false关闭监听或者tas.jmx.port修改jmx端口号
+2019-08-19 10:16:04 [INFO ] [restartedMain] c.t.t.server.Server - tas-9.4.z-SNAPSHOT; built: 2018-08-30T13:59:14.071Z; git: 27208684755d94a92186989f695db2d7b21ebc51; jvm 1.8.0_60-b27
+2019-08-19 10:16:04 [INFO ] [restartedMain] c.t.t.s.h.C.application - Initializing Spring embedded WebApplicationContext
+2019-08-19 10:16:04 [INFO ] [restartedMain] o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 2650 ms
+2019-08-19 10:16:04 [INFO ] [restartedMain] c.t.t.server.session - DefaultSessionIdManager workerName=node0
+2019-08-19 10:16:04 [INFO ] [restartedMain] c.t.t.server.session - No SessionScavenger set, using defaults
+2019-08-19 10:16:04 [INFO ] [restartedMain] c.t.t.server.session - node0 Scavenging every 660000ms
+2019-08-19 10:16:04 [INFO ] [restartedMain] c.t.t.s.h.ContextHandler - Started c.t.t.s.TasEmbeddedWebAppContext@4bb93e1c{application,/,[file:///C:/Users/Administrator/AppData/Local/Temp/jetty-docbase.6526932881645211820.8080/, jar:file:/H:/mvnrepository/com/thunisoft/artery/artery-component/6.0.46/artery-component-6.0.46.jar!/META-INF/resources],AVAILABLE}
+2019-08-19 10:16:06 [INFO ] [restartedMain] c.t.t.j.ConnectorServer - JMX URL: service:jmx:rmi://localhost:1099/jndi/rmi://localhost:1099/jmxrmi
+2019-08-19 10:16:06 [INFO ] [restartedMain] c.t.t.server.Server - Started @6068ms
+2019-08-19 10:16:06 [INFO ] [restartedMain] c.t.a.d.c.i.DictCache - 【开始加载数据字典缓存...】
+2019-08-19 10:16:07 [INFO ] [restartedMain] c.t.a.d.c.i.DictCache - 2
+2019-08-19 10:16:07 [INFO ] [restartedMain] c.t.a.d.c.i.DictCache - 〖加载数据字典缓存结束〗
+2019-08-19 10:16:07 [INFO ] [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-08-19 10:16:07 [INFO ] [restartedMain] c.t.s.c.c.u.ConfigUtils - 未能加载当前路径下的props配置，采用默认配置
+2019-08-19 10:16:07 [INFO ] [restartedMain] c.a.d.p.DruidDataSource - {dataSource-1} inited
+2019-08-19 10:16:07 [INFO ] [restartedMain] c.t.a.c.f.o.s.DefaultUIOrganService - 没有引入artery-organ-start或者TAP, 组织机构组件(organ-tree)将无法使用
+2019-08-19 10:16:08 [INFO ] [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-19 10:16:08 [INFO ] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-08-19 10:16:09 [INFO ] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-08-19 10:16:09 [INFO ] [restartedMain] c.t.t.s.h.C.application - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-19 10:16:09 [INFO ] [restartedMain] o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-08-19 10:16:09 [INFO ] [restartedMain] o.s.w.s.DispatcherServlet - Completed initialization in 14 ms
+2019-08-19 10:16:09 [INFO ] [restartedMain] c.t.t.s.AbstractConnector - Stopped ServerConnector@4297e7b2{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2019-08-19 10:16:09 [INFO ] [restartedMain] c.t.t.server.session - node0 Stopped scavenging
+2019-08-19 10:16:09 [INFO ] [restartedMain] c.t.t.s.h.C.application - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2019-08-19 10:16:09 [INFO ] [restartedMain] c.t.t.s.h.ContextHandler - Stopped c.t.t.s.TasEmbeddedWebAppContext@4bb93e1c{application,/,[file:///C:/Users/Administrator/AppData/Local/Temp/jetty-docbase.6526932881645211820.8080/, jar:file:/H:/mvnrepository/com/thunisoft/artery/artery-component/6.0.46/artery-component-6.0.46.jar!/META-INF/resources],UNAVAILABLE}
+2019-08-19 10:16:09 [INFO ] [restartedMain] o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-08-19 10:16:09 [ERROR] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2019-08-19 10:16:09 [INFO ] [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-19 10:16:09 [INFO ] [restartedMain] c.a.d.p.DruidDataSource - {dataSource-1} closing ...
+2019-08-19 10:16:09 [INFO ] [restartedMain] c.a.d.p.DruidDataSource - {dataSource-1} closed
+2019-08-19 10:16:49 [INFO ] [restartedMain] c.t.d.d.Artery6demoApplication - Starting Artery6demoApplication on GUOZHICHAO with PID 12056 (H:\workspace\artery6demo\target\classes started by Administrator in H:\workspace\artery6demo)
+2019-08-19 10:16:49 [INFO ] [restartedMain] c.t.d.d.Artery6demoApplication - The following profiles are active: dev
+2019-08-19 10:16:49 [INFO ] [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-08-19 10:16:49 [INFO ] [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-08-19 10:16:50 [INFO ] [restartedMain] c.t.a.s.p.e.p.ArteryEncryptPropertiesPostProcessor - 开始处理PropertySource
+2019-08-19 10:16:51 [INFO ] [restartedMain] c.t.tas.util.log - Logging initialized @2877ms to com.thunisoft.tas.util.log.Slf4jLog
+2019-08-19 10:16:51 [INFO ] [restartedMain] o.s.b.w.e.j.TasServletWebServerFactory - Server initialized with port: 8080
+2019-08-19 10:16:51 [WARN ] [restartedMain] c.t.t.s.AbstractConnector - Ignoring deprecated socket close linger time
+2019-08-19 10:16:51 [INFO ] [restartedMain] c.t.t.c.TasWebServerFactoryCustomizer - 【友情提示】如果发现1099端口冲突，可以设置tas.jmx.enable=false关闭监听或者tas.jmx.port修改jmx端口号
+2019-08-19 10:16:51 [INFO ] [restartedMain] c.t.t.server.Server - tas-9.4.z-SNAPSHOT; built: 2018-08-30T13:59:14.071Z; git: 27208684755d94a92186989f695db2d7b21ebc51; jvm 1.8.0_60-b27
+2019-08-19 10:16:51 [INFO ] [restartedMain] c.t.t.s.h.C.application - Initializing Spring embedded WebApplicationContext
+2019-08-19 10:16:51 [INFO ] [restartedMain] o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 2241 ms
+2019-08-19 10:16:52 [INFO ] [restartedMain] c.t.t.server.session - DefaultSessionIdManager workerName=node0
+2019-08-19 10:16:52 [INFO ] [restartedMain] c.t.t.server.session - No SessionScavenger set, using defaults
+2019-08-19 10:16:52 [INFO ] [restartedMain] c.t.t.server.session - node0 Scavenging every 600000ms
+2019-08-19 10:16:52 [INFO ] [restartedMain] c.t.t.s.h.ContextHandler - Started c.t.t.s.TasEmbeddedWebAppContext@2961d66c{application,/,[file:///C:/Users/Administrator/AppData/Local/Temp/jetty-docbase.7834969947576415793.8080/, jar:file:/H:/mvnrepository/com/thunisoft/artery/artery-component/6.0.46/artery-component-6.0.46.jar!/META-INF/resources],AVAILABLE}
+2019-08-19 10:16:54 [INFO ] [restartedMain] c.t.t.j.ConnectorServer - JMX URL: service:jmx:rmi://localhost:1099/jndi/rmi://localhost:1099/jmxrmi
+2019-08-19 10:16:54 [INFO ] [restartedMain] c.t.t.server.Server - Started @5517ms
+2019-08-19 10:16:54 [INFO ] [restartedMain] c.t.a.d.c.i.DictCache - 【开始加载数据字典缓存...】
+2019-08-19 10:16:54 [INFO ] [restartedMain] c.t.a.d.c.i.DictCache - 2
+2019-08-19 10:16:54 [INFO ] [restartedMain] c.t.a.d.c.i.DictCache - 〖加载数据字典缓存结束〗
+2019-08-19 10:16:54 [INFO ] [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-08-19 10:16:55 [INFO ] [restartedMain] c.t.s.c.c.u.ConfigUtils - 未能加载当前路径下的props配置，采用默认配置
+2019-08-19 10:16:55 [INFO ] [restartedMain] c.a.d.p.DruidDataSource - {dataSource-1} inited
+2019-08-19 10:16:55 [INFO ] [restartedMain] c.t.a.c.f.o.s.DefaultUIOrganService - 没有引入artery-organ-start或者TAP, 组织机构组件(organ-tree)将无法使用
+2019-08-19 10:16:55 [INFO ] [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-19 10:16:56 [INFO ] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-08-19 10:16:56 [INFO ] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-08-19 10:16:56 [INFO ] [restartedMain] c.t.t.s.h.C.application - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-19 10:16:56 [INFO ] [restartedMain] o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-08-19 10:16:56 [INFO ] [restartedMain] o.s.w.s.DispatcherServlet - Completed initialization in 9 ms
+2019-08-19 10:16:56 [INFO ] [restartedMain] c.t.t.s.AbstractConnector - Stopped ServerConnector@775a93b5{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2019-08-19 10:16:56 [INFO ] [restartedMain] c.t.t.server.session - node0 Stopped scavenging
+2019-08-19 10:16:56 [INFO ] [restartedMain] c.t.t.s.h.C.application - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2019-08-19 10:16:56 [INFO ] [restartedMain] c.t.t.s.h.ContextHandler - Stopped c.t.t.s.TasEmbeddedWebAppContext@2961d66c{application,/,[file:///C:/Users/Administrator/AppData/Local/Temp/jetty-docbase.7834969947576415793.8080/, jar:file:/H:/mvnrepository/com/thunisoft/artery/artery-component/6.0.46/artery-component-6.0.46.jar!/META-INF/resources],UNAVAILABLE}
+2019-08-19 10:16:56 [INFO ] [restartedMain] o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-08-19 10:16:56 [ERROR] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2019-08-19 10:16:56 [INFO ] [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-19 10:16:56 [INFO ] [restartedMain] c.a.d.p.DruidDataSource - {dataSource-1} closing ...
+2019-08-19 10:16:56 [INFO ] [restartedMain] c.a.d.p.DruidDataSource - {dataSource-1} closed
+2019-08-19 10:17:28 [INFO ] [restartedMain] c.t.d.d.Artery6demoApplication - Starting Artery6demoApplication on GUOZHICHAO with PID 12888 (H:\workspace\artery6demo\target\classes started by Administrator in H:\workspace\artery6demo)
+2019-08-19 10:17:28 [INFO ] [restartedMain] c.t.d.d.Artery6demoApplication - The following profiles are active: dev
+2019-08-19 10:17:28 [INFO ] [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-08-19 10:17:28 [INFO ] [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-08-19 10:17:29 [INFO ] [restartedMain] c.t.a.s.p.e.p.ArteryEncryptPropertiesPostProcessor - 开始处理PropertySource
+2019-08-19 10:17:30 [INFO ] [restartedMain] c.t.tas.util.log - Logging initialized @3134ms to com.thunisoft.tas.util.log.Slf4jLog
+2019-08-19 10:17:31 [INFO ] [restartedMain] o.s.b.w.e.j.TasServletWebServerFactory - Server initialized with port: 8089
+2019-08-19 10:17:31 [WARN ] [restartedMain] c.t.t.s.AbstractConnector - Ignoring deprecated socket close linger time
+2019-08-19 10:17:31 [INFO ] [restartedMain] c.t.t.c.TasWebServerFactoryCustomizer - 【友情提示】如果发现1099端口冲突，可以设置tas.jmx.enable=false关闭监听或者tas.jmx.port修改jmx端口号
+2019-08-19 10:17:31 [INFO ] [restartedMain] c.t.t.server.Server - tas-9.4.z-SNAPSHOT; built: 2018-08-30T13:59:14.071Z; git: 27208684755d94a92186989f695db2d7b21ebc51; jvm 1.8.0_60-b27
+2019-08-19 10:17:31 [INFO ] [restartedMain] c.t.t.s.h.C.application - Initializing Spring embedded WebApplicationContext
+2019-08-19 10:17:31 [INFO ] [restartedMain] o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 2492 ms
+2019-08-19 10:17:31 [INFO ] [restartedMain] c.t.t.server.session - DefaultSessionIdManager workerName=node0
+2019-08-19 10:17:31 [INFO ] [restartedMain] c.t.t.server.session - No SessionScavenger set, using defaults
+2019-08-19 10:17:31 [INFO ] [restartedMain] c.t.t.server.session - node0 Scavenging every 600000ms
+2019-08-19 10:17:31 [INFO ] [restartedMain] c.t.t.s.h.ContextHandler - Started c.t.t.s.TasEmbeddedWebAppContext@17ad32a3{application,/,[file:///C:/Users/Administrator/AppData/Local/Temp/jetty-docbase.8642113515278006544.8089/, jar:file:/H:/mvnrepository/com/thunisoft/artery/artery-component/6.0.46/artery-component-6.0.46.jar!/META-INF/resources],AVAILABLE}
+2019-08-19 10:17:33 [INFO ] [restartedMain] c.t.t.j.ConnectorServer - JMX URL: service:jmx:rmi://localhost:1099/jndi/rmi://localhost:1099/jmxrmi
+2019-08-19 10:17:33 [INFO ] [restartedMain] c.t.t.server.Server - Started @5780ms
+2019-08-19 10:17:33 [INFO ] [restartedMain] c.t.a.d.c.i.DictCache - 【开始加载数据字典缓存...】
+2019-08-19 10:17:34 [INFO ] [restartedMain] c.t.a.d.c.i.DictCache - 2
+2019-08-19 10:17:34 [INFO ] [restartedMain] c.t.a.d.c.i.DictCache - 〖加载数据字典缓存结束〗
+2019-08-19 10:17:34 [INFO ] [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-08-19 10:17:34 [INFO ] [restartedMain] c.t.s.c.c.u.ConfigUtils - 未能加载当前路径下的props配置，采用默认配置
+2019-08-19 10:17:34 [INFO ] [restartedMain] c.a.d.p.DruidDataSource - {dataSource-1} inited
+2019-08-19 10:17:34 [INFO ] [restartedMain] c.t.a.c.f.o.s.DefaultUIOrganService - 没有引入artery-organ-start或者TAP, 组织机构组件(organ-tree)将无法使用
+2019-08-19 10:17:34 [INFO ] [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-19 10:17:35 [INFO ] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-08-19 10:17:35 [INFO ] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-08-19 10:17:35 [INFO ] [restartedMain] c.t.t.s.h.C.application - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-19 10:17:35 [INFO ] [restartedMain] o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-08-19 10:17:35 [INFO ] [restartedMain] o.s.w.s.DispatcherServlet - Completed initialization in 14 ms
+2019-08-19 10:17:35 [INFO ] [restartedMain] c.t.t.s.AbstractConnector - Started ServerConnector@628698d3{HTTP/1.1,[http/1.1]}{0.0.0.0:8089}
+2019-08-19 10:17:35 [INFO ] [restartedMain] c.t.t.s.TasWebServer - Tas 启动成功，端口号： 8089 (http/1.1), contextPath: ''
+2019-08-19 10:17:35 [INFO ] [restartedMain] c.t.d.d.Artery6demoApplication - Started Artery6demoApplication in 7.413 seconds (JVM running for 8.024)
+2019-08-19 10:50:47 [INFO ] [restartedMain] c.t.d.d.Artery6demoApplication - Starting Artery6demoApplication on GUOZHICHAO with PID 13408 (H:\workspace\artery6demo\target\classes started by Administrator in H:\workspace\artery6demo)
+2019-08-19 10:50:47 [INFO ] [restartedMain] c.t.d.d.Artery6demoApplication - The following profiles are active: dev
+2019-08-19 10:50:47 [INFO ] [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-08-19 10:50:47 [INFO ] [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-08-19 10:50:49 [INFO ] [restartedMain] c.t.a.s.p.e.p.ArteryEncryptPropertiesPostProcessor - 开始处理PropertySource
+2019-08-19 10:50:49 [INFO ] [restartedMain] c.t.tas.util.log - Logging initialized @2802ms to com.thunisoft.tas.util.log.Slf4jLog
+2019-08-19 10:50:49 [INFO ] [restartedMain] o.s.b.w.e.j.TasServletWebServerFactory - Server initialized with port: 8089
+2019-08-19 10:50:49 [WARN ] [restartedMain] c.t.t.s.AbstractConnector - Ignoring deprecated socket close linger time
+2019-08-19 10:50:50 [INFO ] [restartedMain] c.t.t.c.TasWebServerFactoryCustomizer - 【友情提示】如果发现1099端口冲突，可以设置tas.jmx.enable=false关闭监听或者tas.jmx.port修改jmx端口号
+2019-08-19 10:50:50 [INFO ] [restartedMain] c.t.t.server.Server - tas-9.4.z-SNAPSHOT; built: 2018-08-30T13:59:14.071Z; git: 27208684755d94a92186989f695db2d7b21ebc51; jvm 1.8.0_60-b27
+2019-08-19 10:50:50 [INFO ] [restartedMain] c.t.t.s.h.C.application - Initializing Spring embedded WebApplicationContext
+2019-08-19 10:50:50 [INFO ] [restartedMain] o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 2210 ms
+2019-08-19 10:50:50 [INFO ] [restartedMain] c.t.t.server.session - DefaultSessionIdManager workerName=node0
+2019-08-19 10:50:50 [INFO ] [restartedMain] c.t.t.server.session - No SessionScavenger set, using defaults
+2019-08-19 10:50:50 [INFO ] [restartedMain] c.t.t.server.session - node0 Scavenging every 660000ms
+2019-08-19 10:50:50 [INFO ] [restartedMain] c.t.t.s.h.ContextHandler - Started c.t.t.s.TasEmbeddedWebAppContext@219e53d9{application,/,[file:///C:/Users/Administrator/AppData/Local/Temp/jetty-docbase.7361485845428365801.8089/, jar:file:/H:/mvnrepository/com/thunisoft/artery/artery-component/6.0.46/artery-component-6.0.46.jar!/META-INF/resources],AVAILABLE}
+2019-08-19 10:50:52 [INFO ] [restartedMain] c.t.t.j.ConnectorServer - JMX URL: service:jmx:rmi://localhost:1099/jndi/rmi://localhost:1099/jmxrmi
+2019-08-19 10:50:52 [INFO ] [restartedMain] c.t.t.server.Server - Started @5409ms
+2019-08-19 10:50:52 [INFO ] [restartedMain] c.t.a.d.c.i.DictCache - 【开始加载数据字典缓存...】
+2019-08-19 10:50:53 [INFO ] [restartedMain] c.t.a.d.c.i.DictCache - 4
+2019-08-19 10:50:53 [INFO ] [restartedMain] c.t.a.d.c.i.DictCache - 〖加载数据字典缓存结束〗
+2019-08-19 10:50:53 [INFO ] [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-08-19 10:50:53 [ERROR] [restartedMain] c.a.d.p.DruidDataSource - testWhileIdle is true, validationQuery not set
+2019-08-19 10:50:53 [INFO ] [restartedMain] c.a.d.p.DruidDataSource - {dataSource-1} inited
+2019-08-19 10:50:53 [INFO ] [restartedMain] c.t.a.c.f.o.s.DefaultUIOrganService - 没有引入artery-organ-start或者TAP, 组织机构组件(organ-tree)将无法使用
+2019-08-19 10:50:53 [INFO ] [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-19 10:50:54 [INFO ] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-08-19 10:50:54 [INFO ] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-08-19 10:50:54 [INFO ] [restartedMain] c.t.t.s.h.C.application - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-19 10:50:54 [INFO ] [restartedMain] o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-08-19 10:50:54 [INFO ] [restartedMain] o.s.w.s.DispatcherServlet - Completed initialization in 11 ms
+2019-08-19 10:50:54 [INFO ] [restartedMain] c.t.t.s.AbstractConnector - Started ServerConnector@bca6c3{HTTP/1.1,[http/1.1]}{0.0.0.0:8089}
+2019-08-19 10:50:54 [INFO ] [restartedMain] c.t.t.s.TasWebServer - Tas 启动成功，端口号： 8089 (http/1.1), contextPath: ''
+2019-08-19 10:50:54 [INFO ] [restartedMain] c.t.d.d.Artery6demoApplication - Started Artery6demoApplication in 6.859 seconds (JVM running for 7.431)
+2019-08-19 10:57:09 [INFO ] [restartedMain] c.t.d.d.Artery6demoApplication - Starting Artery6demoApplication on GUOZHICHAO with PID 6436 (H:\workspace\artery6demo\target\classes started by Administrator in H:\workspace\artery6demo)
+2019-08-19 10:57:09 [INFO ] [restartedMain] c.t.d.d.Artery6demoApplication - The following profiles are active: dev
+2019-08-19 10:57:09 [INFO ] [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-08-19 10:57:09 [INFO ] [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-08-19 10:57:10 [INFO ] [restartedMain] c.t.a.s.p.e.p.ArteryEncryptPropertiesPostProcessor - 开始处理PropertySource
+2019-08-19 10:57:11 [INFO ] [restartedMain] c.t.tas.util.log - Logging initialized @2854ms to com.thunisoft.tas.util.log.Slf4jLog
+2019-08-19 10:57:11 [INFO ] [restartedMain] o.s.b.w.e.j.TasServletWebServerFactory - Server initialized with port: 8089
+2019-08-19 10:57:11 [WARN ] [restartedMain] c.t.t.s.AbstractConnector - Ignoring deprecated socket close linger time
+2019-08-19 10:57:11 [INFO ] [restartedMain] c.t.t.c.TasWebServerFactoryCustomizer - 【友情提示】如果发现1099端口冲突，可以设置tas.jmx.enable=false关闭监听或者tas.jmx.port修改jmx端口号
+2019-08-19 10:57:11 [INFO ] [restartedMain] c.t.t.server.Server - tas-9.4.z-SNAPSHOT; built: 2018-08-30T13:59:14.071Z; git: 27208684755d94a92186989f695db2d7b21ebc51; jvm 1.8.0_60-b27
+2019-08-19 10:57:11 [INFO ] [restartedMain] c.t.t.s.h.C.application - Initializing Spring embedded WebApplicationContext
+2019-08-19 10:57:11 [INFO ] [restartedMain] o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 2295 ms
+2019-08-19 10:57:11 [INFO ] [restartedMain] c.t.t.server.session - DefaultSessionIdManager workerName=node0
+2019-08-19 10:57:11 [INFO ] [restartedMain] c.t.t.server.session - No SessionScavenger set, using defaults
+2019-08-19 10:57:11 [INFO ] [restartedMain] c.t.t.server.session - node0 Scavenging every 600000ms
+2019-08-19 10:57:11 [INFO ] [restartedMain] c.t.t.s.h.ContextHandler - Started c.t.t.s.TasEmbeddedWebAppContext@ff49a4f{application,/,[file:///C:/Users/Administrator/AppData/Local/Temp/jetty-docbase.498988075245451519.8089/, jar:file:/H:/mvnrepository/com/thunisoft/artery/artery-component/6.0.46/artery-component-6.0.46.jar!/META-INF/resources],AVAILABLE}
+2019-08-19 10:57:13 [INFO ] [restartedMain] c.t.t.j.ConnectorServer - JMX URL: service:jmx:rmi://localhost:1099/jndi/rmi://localhost:1099/jmxrmi
+2019-08-19 10:57:13 [INFO ] [restartedMain] c.t.t.server.Server - Started @5496ms
+2019-08-19 10:57:13 [INFO ] [restartedMain] c.t.a.d.c.i.DictCache - 【开始加载数据字典缓存...】
+2019-08-19 10:57:14 [INFO ] [restartedMain] c.t.a.d.c.i.DictCache - 4
+2019-08-19 10:57:14 [INFO ] [restartedMain] c.t.a.d.c.i.DictCache - 〖加载数据字典缓存结束〗
+2019-08-19 10:57:14 [INFO ] [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-08-19 10:57:14 [ERROR] [restartedMain] c.a.d.p.DruidDataSource - testWhileIdle is true, validationQuery not set
+2019-08-19 10:57:14 [INFO ] [restartedMain] c.a.d.p.DruidDataSource - {dataSource-1} inited
+2019-08-19 10:57:14 [INFO ] [restartedMain] c.t.a.c.f.o.s.DefaultUIOrganService - 没有引入artery-organ-start或者TAP, 组织机构组件(organ-tree)将无法使用
+2019-08-19 10:57:14 [INFO ] [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-19 10:57:15 [INFO ] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-08-19 10:57:15 [INFO ] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-08-19 10:57:15 [INFO ] [restartedMain] c.t.t.s.h.C.application - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-19 10:57:15 [INFO ] [restartedMain] o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-08-19 10:57:15 [INFO ] [restartedMain] o.s.w.s.DispatcherServlet - Completed initialization in 9 ms
+2019-08-19 10:57:15 [INFO ] [restartedMain] c.t.t.s.AbstractConnector - Started ServerConnector@21ba4d3a{HTTP/1.1,[http/1.1]}{0.0.0.0:8089}
+2019-08-19 10:57:15 [INFO ] [restartedMain] c.t.t.s.TasWebServer - Tas 启动成功，端口号： 8089 (http/1.1), contextPath: ''
+2019-08-19 10:57:15 [INFO ] [restartedMain] c.t.d.d.Artery6demoApplication - Started Artery6demoApplication in 6.795 seconds (JVM running for 7.381)

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<groups>
+  <group>
+    <id>465563b571fd33c5ecf2e6e48c53dcd4</id>
+    <dbName>db_aty</dbName>
+    <desc />
+    <showName>db_aty</showName>
+    <tables>
+      <table key="dbatytegbook" tableName="t_eg_book" />
+      <table key="dbatytstudent" tableName="t_student" />
+    </tables>
+  </group>
+  <group>
+    <id>5c2b064f543394a89856a7563b6800b0</id>
+    <dbName>db_szq</dbName>
+    <desc />
+    <showName>db_szq</showName>
+    <tables>
+      <table key="dbszqtegbook" tableName="t_eg_book" />
+      <table key="dbszqtreserve" tableName="t_reserve" />
+    </tables>
+  </group>
+</groups>
+

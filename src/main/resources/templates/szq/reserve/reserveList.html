@@ -1,0 +1,42 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:aty="http://www.thunisoft.com">
+  <head> 
+    <meta type="aty-meta" name="javaLocation" content="com.thunisoft.demo.demo.szq.reserve.controller.ReserveListController.java" th:remove="all"> 
+    <meta type="aty-meta" name="cssLocation" content="css/szq/reserve/reserveList.css" th:remove="all"> 
+    <meta type="aty-meta" name="jsLocation" content="js/szq/reserve/reserveList.js" th:remove="all">
+    <meta type="aty-meta" name="relation-table" content="dbszqtreserve.t_reserve" th:remove="all">
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"> 
+    <link rel="stylesheet" th:href="@{/webjars/artery/artery-ui.css}"> 
+    <link rel="stylesheet" aty:import> 
+    <link rel="stylesheet" th:href="@{/css/szq/reserve/reserveList.css}"> 
+    <title>预定信息表列表</title> 
+    <base th:href="@{/}">
+  </head>
+  <body>
+  
+    <div id="app" style="height:100%;width:100%">
+      <aty-button text="增加" @click="addReserve"></aty-button> 
+      <aty-table ref="table_reserve"  @load-data="loadData" :limit="10" :pageable-data="rs"  
+         exp-file-name="预定信息表列表" exp-title="预定信息表列表"> 
+          <aty-table-column aty:dict="dbszqtreserve.t_reserve.c_name"  ></aty-table-column>
+          <aty-table-column aty:dict="dbszqtreserve.t_reserve.c_pid"  ></aty-table-column>
+          <aty-table-column aty:dict="dbszqtreserve.t_reserve.d_publisher"  ></aty-table-column>
+        <aty-table-column label="操作" :width="130"> 
+          <template slot-scope="props">
+            <aty-link text="编辑" @click="editReserve(props.row.id)"></aty-link> 
+            <aty-link text="删除" @click="deleteReserve(props.row.id)"></aty-link> 
+            <aty-link text="查看" @click="reserveDetail(props.row.id)"></aty-link> 
+          </template> 
+        </aty-table-column> 
+      </aty-table>
+      <aty-modal ref="reserveWidiow" width="500" :footer-hide="true"> 
+        <aty-iframe height="520px" :src="popUrl" style="padding-top: 30px;" name="reserveFrame"></aty-iframe> 
+      </aty-modal>
+    </div>  
+    <script type="text/javascript" th:src="@{/webjars/vue/vue.min.js}"></script> 
+    <script type="text/javascript" th:src="@{/webjars/artery/artery-ui.min.js}"></script>
+    <script type="text/javascript" aty:import></script>
+    <script type="text/javascript" th:src="@{/js/szq/reserve/reserveList.js}"></script> 
+  </body>
+</html>

@@ -1,0 +1,38 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:aty="http://www.thunisoft.com">
+  <head> 
+    <meta type="aty-meta" name="javaLocation" content="com.thunisoft.demo.demo.controller.XjController.java" th:remove="all"> 
+    <meta type="aty-meta" name="cssLocation" content="css/xj.css" th:remove="all"> 
+    <meta type="aty-meta" name="jsLocation" content="js/xj.js" th:remove="all"> 
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"> 
+    <meta name="description" content=""> 
+    <link rel="stylesheet" th:href="@{/webjars/artery/artery-ui.css}"> 
+    <link rel="stylesheet" aty:import> 
+    <link rel="stylesheet" th:href="@{/css/xj.css}"> 
+    <title>title</title> 
+    <base th:href="@{/}"> 
+  </head> 
+  <body> 
+    <div id="app"> 
+      <aty-form ref="form"> 
+        <aty-input required label="姓名" v-model="xj.name"></aty-input> 
+        <aty-input-number label="年龄" required v-model="xj.age"></aty-input-number> 
+        <aty-input-number label="数字" v-model="xj.number"></aty-input-number> 
+        <aty-input-money label="金额" v-model="xj.price"></aty-input-money> 
+        <aty-date-picker label="日期" v-model="xj.date"></aty-date-picker> 
+        <aty-radio-group name="radio" v-model="xj.radio" @change="radio" code-type="1001"></aty-radio-group> 
+        <aty-checkbox-group name="爱好" code-type="1002" v-model="xj.checkbox"></aty-checkbox-group> 
+        <aty-switch label="是否" v-model="xj.swit" label-on="true" label-off="flase"></aty-switch> 
+        <aty-select code-type="1003"></aty-select> 
+        <aty-select-tree ref="tree1" @change="change" label="所在城市" :data="data1" v-model="xj.tree"></aty-select-tree> 
+        <aty-textarea></aty-textarea> 
+        <aty-button text="提交" @click="save"></aty-button> 
+      </aty-form> 
+    </div> 
+    <script type="text/javascript" th:src="@{/webjars/vue/vue.min.js}"></script> 
+    <script type="text/javascript" th:src="@{/webjars/artery/artery-ui.min.js}"></script> 
+    <script type="text/javascript" aty:import></script> 
+    <script type="text/javascript" th:src="@{/js/xj.js}"></script>  
+  </body>
+</html>

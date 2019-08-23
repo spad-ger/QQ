@@ -1,0 +1,43 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:aty="http://www.thunisoft.com">
+  <head> 
+    <meta type="aty-meta" name="javaLocation" content="com.thunisoft.demo.demo.eg.book.controller.EgBookListController.java" th:remove="all"> 
+    <meta type="aty-meta" name="cssLocation" content="css/eg/book/egBookList.css" th:remove="all"> 
+    <meta type="aty-meta" name="jsLocation" content="js/eg/book/egBookList.js" th:remove="all">
+    <meta type="aty-meta" name="relation-table" content="t_eg_book" th:remove="all">
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"> 
+    <link rel="stylesheet" th:href="@{/webjars/artery/artery-ui.css}"> 
+    <link rel="stylesheet" aty:import> 
+    <link rel="stylesheet" th:href="@{/css/eg/book/egBookList.css}"> 
+    <title>图书列表</title> 
+    <base th:href="@{/}">
+  </head>
+  <body>
+  
+    <div id="app" style="height:100%;width:100%">
+      <aty-button text="增加" @click="addEgBook"></aty-button> 
+      <aty-table ref="table_egBook"  @load-data="loadData" :limit="10" :pageable-data="rs"  
+         exp-file-name="图书列表" exp-title="图书列表"> 
+          <aty-table-column aty:dict="t_eg_book.c_name"  ></aty-table-column>
+          <aty-table-column aty:dict="t_eg_book.c_auth"  ></aty-table-column>
+          <aty-table-column aty:dict="t_eg_book.d_publisher"  ></aty-table-column>
+          <aty-table-column aty:dict="t_eg_book.f_price"  ></aty-table-column>
+        <aty-table-column label="操作" :width="130"> 
+          <template slot-scope="props">
+            <aty-link text="编辑" @click="editEgBook(props.row.id)"></aty-link> 
+            <aty-link text="删除" @click="deleteEgBook(props.row.id)"></aty-link> 
+            <aty-link text="查看" @click="egBookDetail(props.row.id)"></aty-link> 
+          </template> 
+        </aty-table-column> 
+      </aty-table>
+      <aty-modal ref="egBookWidiow" width="500" :footer-hide="true"> 
+        <aty-iframe height="520px" :src="popUrl" style="padding-top: 30px;" name="egBookFrame"></aty-iframe> 
+      </aty-modal>
+    </div>  
+    <script type="text/javascript" th:src="@{/webjars/vue/vue.min.js}"></script> 
+    <script type="text/javascript" th:src="@{/webjars/artery/artery-ui.min.js}"></script>
+    <script type="text/javascript" aty:import></script>
+    <script type="text/javascript" th:src="@{/js/eg/book/egBookList.js}"></script> 
+  </body>
+</html>

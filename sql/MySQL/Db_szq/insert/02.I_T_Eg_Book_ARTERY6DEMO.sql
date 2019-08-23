@@ -1,0 +1,14 @@
+-- auto create by SMD
+
+truncate table db_wq.T_Eg_Book;
+
+insert into db_wq.T_Eg_Book ( C_ID, C_NAME, C_AUTH, C_PUBLISHER, F_PRICE, D_PUBLISHER ) values ('1000000000004127'                 ,'论语别裁'                             ,'南怀瑾'                              ,'复旦大学出版社'                          ,42        ,'2007-07-05 12:00:00' );
+insert into db_wq.T_Eg_Book ( C_ID, C_NAME, C_AUTH, C_PUBLISHER, F_PRICE, D_PUBLISHER ) values ('1000000000004128'                 ,'国学拾遗'                             ,'林语堂'                              ,'陕西师范大学出版社'                        ,27        ,'2008-01-08 12:00:00' );
+insert into db_wq.T_Eg_Book ( C_ID, C_NAME, C_AUTH, C_PUBLISHER, F_PRICE, D_PUBLISHER ) values ('1000000000004129'                 ,'读库0802'                           ,'张立宪'                              ,'新星出版社'                            ,33        ,'2008-01-05 12:00:00' );
+insert into db_wq.T_Eg_Book ( C_ID, C_NAME, C_AUTH, C_PUBLISHER, F_PRICE, D_PUBLISHER ) values ('1000000000004130'                 ,'求医不如求己'                           ,'中里巴人'                             ,'中国中医药出版社'                         ,29        ,'2007-01-02 12:00:00' );
+insert into db_wq.T_Eg_Book ( C_ID, C_NAME, C_AUTH, C_PUBLISHER, F_PRICE, D_PUBLISHER ) values ('1000000000004131'                 ,'如果爱'                              ,'冯远往，梁丹妮'                          ,'长江文艺出版社'                          ,22        ,'2008-01-06 12:00:00' );
+insert into db_wq.T_Eg_Book ( C_ID, C_NAME, C_AUTH, C_PUBLISHER, F_PRICE, D_PUBLISHER ) values ('1000000000004132'                 ,'明若晓溪（全3册）'                        ,'明晓溪'                              ,'长江文艺出版社'                          ,56        ,'2005-10-08 12:00:00' );
+insert into db_wq.T_Eg_Book ( C_ID, C_NAME, C_AUTH, C_PUBLISHER, F_PRICE, D_PUBLISHER ) values ('1000000000004133'                 ,'草样年华'                             ,'孙睿'                               ,'远方出版社'                            ,19.59     ,'2004-01-13 12:00:00' );
+insert into db_wq.T_Eg_Book ( C_ID, C_NAME, C_AUTH, C_PUBLISHER, F_PRICE, D_PUBLISHER ) values ('1000000000004134'                 ,'梦回大清终结篇'                          ,'金子'                               ,'朝华出版社'                            ,22        ,'2007-02-01 12:00:00' );
+insert into db_wq.T_Eg_Book ( C_ID, C_NAME, C_AUTH, C_PUBLISHER, F_PRICE, D_PUBLISHER ) values ('1000000000004135'                 ,'武则天正传'                            ,'林语堂'                              ,'陕西师范大学出版社'                        ,20        ,'2006-01-09 12:00:00' );
+insert into db_wq.T_Eg_Book ( C_ID, C_NAME, C_AUTH, C_PUBLISHER, F_PRICE, D_PUBLISHER ) values ('1000000000004136'                 ,'士兵突击'                             ,'兰晓龙'                              ,'花山文艺'                             ,32        ,'2007-02-01 12:00:00' );

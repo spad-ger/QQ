@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table ver="2">
+  <cid>d65b852647c8c60789b566edd7ba8188</cid>
+  dbatytegbook
+  <tableName>t_eg_book</tableName>
+  <showName>图书</showName>
+  <desc />
+  <submitName>egBook</submitName>
+  <fields>
+    <field id="078aa894e60db90dff5bcc255951abe4" fieldName="c_id" fieldType="text" dbmsType="varchar" pk="true" defaultValue="" unique="true">
+      <extend label="uuid" submitName="id" comment="varchar" required="true" maxLength="32" editor="input" />
+    </field>
+    <field id="0494d3e40cc2ee70a34b775372ef8825" fieldName="c_name" fieldType="text" dbmsType="varchar" pk="false" defaultValue="" unique="false">
+      <extend label="图书名称" submitName="name" comment="varchar" required="true" maxLength="300" editor="input" />
+    </field>
+    <field id="000a1f26c6a2792b80fe151c13bda108" fieldName="c_auth" fieldType="text" dbmsType="varchar" pk="false" defaultValue="" unique="false">
+      <extend label="作者" submitName="auth" comment="varchar" required="false" maxLength="300" editor="input" />
+    </field>
+    <field id="8f38fdf5c4eb0b6e40ca9cd4ae964cd6" fieldName="d_publisher" fieldType="date" dbmsType="datetime" pk="false" defaultValue="" unique="false">
+      <extend label="出版日期" submitName="publisher" comment="datetime" required="false" showTime="true" customFormat="YYYY-MM-DD" />
+    </field>
+    <field id="2f0a7c5fa5ab796c0287242edf85c16a" fieldName="f_price" fieldType="number" dbmsType="decimal" pk="false" defaultValue="" unique="false">
+      <extend label="单价" submitName="price" comment="decimal" required="false" maxLength="6" valueUnit="无" maxPrecision="2" />
+    </field>
+  </fields>
+</table>
+

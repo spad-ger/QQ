@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    name: dataSource
+    url: jdbc:mysql://localhost:3306/db_aty?useSSL=false&characterEncoding=utf8
+    username: test
+    password: ENCRYPT#QMi/uhoJ1tQ=
+    driver-class-name: com.mysql.jdbc.Driver
